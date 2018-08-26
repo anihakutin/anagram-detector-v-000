@@ -3,5 +3,5 @@
 # 2. sort each array
 # 3. compare arrays and return anagram
 class Anagram
-  
+  attr_accessor :anagram
 end
