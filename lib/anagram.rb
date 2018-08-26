@@ -13,5 +13,6 @@ class Anagram
     possible_anagram.each do |w|
       matches << w if w.split("").sort == @word.split("").sort
     end
+    matches
   end
 end
