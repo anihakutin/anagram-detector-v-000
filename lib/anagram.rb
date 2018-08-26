@@ -6,7 +6,7 @@ class Anagram
   attr_accessor :word
 
   def initialize(word)
-    @anagram = anagram
+    @word = word
   end
   def match(possible_anagram)
 
