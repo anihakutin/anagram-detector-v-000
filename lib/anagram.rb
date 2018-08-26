@@ -3,12 +3,12 @@
 # 2. sort each array
 # 3. compare arrays and return anagram
 class Anagram
-  attr_accessor :anagram
+  attr_accessor :word
 
-  def initialize(anagram)
+  def initialize(word)
     @anagram = anagram
   end
-  def match(words)
+  def match(possible_anagram)
 
   end
 end
