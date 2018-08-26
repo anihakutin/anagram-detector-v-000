@@ -4,4 +4,6 @@
 # 3. compare arrays and return anagram
 class Anagram
   attr_accessor :anagram
+
+  def match()
 end
