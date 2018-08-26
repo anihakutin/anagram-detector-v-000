@@ -9,6 +9,8 @@ class Anagram
     @word = word
   end
   def match(possible_anagram)
-
+    possible_anagram.each do |w|
+      
+    end
   end
 end
